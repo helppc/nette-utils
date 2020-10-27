@@ -1,0 +1,23 @@
+{
+	"name": "helppc/nette-utils",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tomáš Kulhánek",
+			"email": "info@tirus.cz"
+		}
+	],
+	"require": {
+		"php": "^7.2",
+		"ddeboer/vatin": "^2.2",
+		"consistence/consistence": "^2.0",
+		"contributte/translation": "^0.7.1",
+		"radekdostal/nette-datetimepicker": "^3.0",
+		"symfony/intl": "^5.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"HelpPC\\NetteUtils\\": "src"
+		}
+	}
+}

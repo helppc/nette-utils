@@ -1,0 +1,40 @@
+formValidation:
+	uploadValid: Nastala chyba při nahrávání souboru.
+	selectValid: Prosím vyberte platnou hodnotu.
+	image: "Vložený soubor musí být obrázek formátu JPEG, GIF, PNG nebo WebP."
+	mimeType: Vložený soubor není povolený.
+	maxPostSize: Velikost zaslaných dat přesáhla limit %d bitů.
+	maxFileSize: Velikost souboru musí být maximálně %d bitů.
+	range: Prosím zadejte hodnotu mezi %d a %d.
+	max: Prosím zadejte hodnotu menší než %d.
+	min: Prosím zadejte hodnotu větší než %d.
+	float: Prosím zadejte platné číslo.
+	integer: Prosím zadejte celé číslo.
+	url: Prosím zadejte platnou URL adresu.
+	email: Prosím zadejte platný email.
+	length: Prosím zadejte text mezi %d a %d znaky.
+	maxLength: Prosím zadejte text menší než %d znaků.
+	minLength: Prosím zadejte text větší než %d znaků.
+	blank: Toto pole musí být prázdné.
+	filled: Toto pole je povinné.
+	notEqual: Toto pole nesmí obsahovat hodnotu %s.
+	equal: Toto pole musí obsahovat hodnotu %s.
+	csrfProtection: Vaše session expirovala. Prosím zkuste provést operaci znovu.
+
+input:
+	prompt:
+		country: Vyberte zemi.
+
+	required:
+		email: Zadejte platnou emailovou adresu.
+		birthday: Zadejte datum narození.
+		surname: Zadejte příjmení.
+		firstName: Zadejte křestní jméno.
+
+	validationError:
+		email: Zadaný email není platný.
+		unsupportedFiles: "Byl vložen nepodporovaný formát souboru. Povoleny jsou jen následující: %s"
+		unsupportedFile: "Byl vložen nepodporovaný formát souboru. Povoleny jsou jen následující: %s"
+
+	rule:
+		passwordLength: Délka hesla musí být minimálně %d a nejvíce %d znaků.
